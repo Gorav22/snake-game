@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./snake.css">
+    <link rel="shotcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFgHb1nOSIijzL4npHgr4JCDFIo6uTNwSXrw&usqp=CAU">
+    <title>Realistic Snake Game</title>
+</head>
+<body>
+    <canvas id="snakeCanvas" width="400" height="400"></canvas>
+    <button onclick="startGame()">Play</button>
+    <button onclick="stopGame()">Stop</button>
+    <button onclick="restartGame()">Restart</button>
+
+    <!-- Audio elements for sound effects -->
+    <audio id="bgmusic" src="bgmusic.mp3"></audio>
+    <audio id="coinSound" src="coinsound.mp3"></audio>
+    <audio id="popout" src="./popout.mp3"></audio>
+
+    <script src="snake.js"></script>
+</body>
+</html>
