@@ -23,9 +23,6 @@ The snake game is a classic arcade-style game where the player controls a snake 
 - Down arrow: Move the snake down
 - Left arrow: Move the snake left
 - Right arrow: Move the snake right
-### Screenshots/Demo
-<img src="D:\OneDrive\Pictures\Screenshots\Screenshot 2024-04-09 175646.png">
-
 ### Technologies Used
 List the programming languages, frameworks, or libraries used to develop the game.are
 - Html
